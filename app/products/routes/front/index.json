@@ -1,0 +1,8 @@
+{
+   "/product": {
+    "GET": {
+      "route": "product",
+      "policy": []
+    }
+  }
+}

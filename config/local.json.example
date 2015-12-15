@@ -1,0 +1,9 @@
+{
+  "mysql" : {
+    "master" : {"host": "hostname", "user": "mysql-username", "password": "mysql-password", "database": "database-name", "charset": "utf8"},
+    "slave"  : {"host": "hostname", "user": "mysql-username", "password": "mysql-password", "database": "database-name", "charset": "utf8"}
+  },
+	"siteurl" : "carworkz.com",
+	"adminurl" : "admin.carworkz.com",
+	"apiurl" : "api.carworkz.com"
+}

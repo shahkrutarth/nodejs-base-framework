@@ -1,0 +1,9 @@
+{
+	"mysql" : {
+		"master" : "mysql://user:pass@host/db?debug=true",
+		"slave"  : "mysql://user:pass@host/db?debug=true"
+	},
+	"siteurl" : "carworkzindia.com",
+	"adminurl" : "admin.carworkzindia.com",
+	"apiurl" : "api.carworkzindia.com"
+}

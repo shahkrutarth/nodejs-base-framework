@@ -1,0 +1,8 @@
+{
+   "/user": {
+    "GET": {
+      "route": "index",
+      "policy": []
+    }
+  }
+}
