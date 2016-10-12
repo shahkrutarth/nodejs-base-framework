@@ -3,7 +3,7 @@
     "master" : {"host": "hostname", "user": "mysql-username", "password": "mysql-password", "database": "database-name", "charset": "utf8"},
     "slave"  : {"host": "hostname", "user": "mysql-username", "password": "mysql-password", "database": "database-name", "charset": "utf8"}
   },
-	"siteurl" : "carworkz.com",
-	"adminurl" : "admin.carworkz.com",
-	"apiurl" : "api.carworkz.com"
+	"siteurl" : "domainname.com",
+	"adminurl" : "admin.domainname.com",
+	"apiurl" : "api.domainname.com"
 }
