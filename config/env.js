@@ -1,15 +1,15 @@
 var config = {
 	local: {
 		mode: 'local',
-		port: 4300
+		port: 4110
 	},
 	staging: {
 		mode: 'staging',
-		port: 3000
+		port: 3110
 	},
 	production: {
 		mode: 'production',
-		port: 5000
+		port: 5110
 	}
 };
 

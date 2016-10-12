@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon -e '.js | .html | .json' app.js"
   },
   "author": "Krutarth Shah",
   "dependencies": {
@@ -39,6 +39,7 @@
     "python-shell": "^0.2.0",
     "serve-favicon": "~2.3.0",
     "sessionstore": "^1.2.7",
+    "underscore": "^1.8.3",
     "vhost": "^3.0.2",
     "winston": "^2.1.1"
   }
