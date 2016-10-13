@@ -1,0 +1,38 @@
+{
+	"/products": {
+	    "GET": {
+	      	"route": "getProducts",
+	      	"policy": []
+	    },
+	    "POST": {
+	      	"route": "saveProducts",
+	      	"policy": []
+	    },
+	    "PUT": {
+	      	"route": "updateProducts",
+	      	"policy": []
+	    },
+	    "DELETE": {
+	      	"route": "removeProducts",
+	      	"policy": []
+	    }
+  	},
+  	"/product/:id": {
+	    "GET": {
+	      	"route": "getProduct",
+	      	"policy": []
+	    },
+	    "POST": {
+	      	"route": "saveProduct",
+	      	"policy": []
+	    },
+	    "PUT": {
+	      	"route": "updateProduct",
+	      	"policy": []
+	    },
+	    "DELETE": {
+	      	"route": "removeProduct",
+	      	"policy": []
+	    }
+  	}
+}

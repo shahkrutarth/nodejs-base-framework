@@ -20,6 +20,9 @@ var express = require('express'),
   var config = require('./config/env')(),
     domain = require('./config/domain-config')();
 
+// Load all Helpers
+ERROR = require(ROOT_DIR + 'helpers/error_handler.js');
+SUCCESS = require(ROOT_DIR + 'helpers/success_handler.js');
 
 //@TODO::write logic for module discovery.
 //@TODO::write logic for module including module routes.
