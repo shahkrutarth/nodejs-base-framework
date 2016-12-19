@@ -1,0 +1,7 @@
+{
+	"events": [{
+		"name": "evevntName",
+		"model": "products/models/modelName",
+		"function": "functionName"
+	}]
+}

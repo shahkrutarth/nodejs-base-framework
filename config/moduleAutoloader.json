@@ -1,0 +1,30 @@
+{
+	"products": [
+		{
+			"controllers": [
+				{"name": "controllerPath"},
+				{"name": "controllerPath"}
+			]
+		},
+		{
+			"models": [
+				{"name": "modelPath"},
+				{"name": "modelPath"}
+			]
+		}
+	],
+	"users": [
+		{
+			"controllers": [
+				{"name": "controllerPath"},
+				{"name": "controllerPath"}
+			]
+		},
+		{
+			"models": [
+				{"name": "modelPath"},
+				{"name": "modelPath"}
+			]
+		}
+	]
+}

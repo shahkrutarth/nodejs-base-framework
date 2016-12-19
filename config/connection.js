@@ -30,3 +30,12 @@ module.exports.connectToMysqlSlave = function(){
 	var bookshelf = require('bookshelf')(knex);
 	return bookshelf;
 };
+
+module.exports.connectToMongo = function(cb){
+	MongoClient.connect(jsonDB.mongo, function(err, db) {
+		if (err) {
+			throw err;
+		}
+		cb(db);
+	});
+};
